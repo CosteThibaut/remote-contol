@@ -1,0 +1,16 @@
+.header {
+  background-color: var(--darkLayout2);
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+  color: var(--primaryColor);
+}
+
+.details .adm-floating-panel-header,
+.details:after {
+  background-color: var(--darkLayout2) !important;
+}
+
+.details .adm-floating-panel-content {
+  background-color: var(--darkLayout);
+}

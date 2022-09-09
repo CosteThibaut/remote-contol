@@ -1,0 +1,12 @@
+.actionButton {
+  background-color: var(--darkLayout2);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+  padding: 15px;
+}
+
+.actionButton.selected {
+  background-color: var(--selectedLayout);
+}

@@ -1,0 +1,9 @@
+.roundedButton {
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  padding: 15px;
+}
+
+.roundedButton.selected {
+  background-color: var(--selectedLayout);
+}

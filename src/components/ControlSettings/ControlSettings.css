@@ -1,0 +1,11 @@
+.slider {
+  --fill-color: var(--primaryColor);
+}
+
+.settings-container {
+  padding: 10px;
+}
+
+.buttonsContainer {
+  margin-top: 15px;
+}

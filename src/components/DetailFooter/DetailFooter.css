@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  background-color: var(--darkLayout2);
+}
+
+.center {
+  flex: 1;
+  text-align: center;
+}
+
+.selected-channel-image {
+  height: 70px;
+  padding: 5px;
+}
+
+.adm-floating-panel-header {
+  display: none !important;
+}
+
+.arrowButton {
+  margin: 0px 15px;
+}

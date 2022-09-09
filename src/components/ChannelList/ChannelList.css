@@ -1,0 +1,24 @@
+.channels {
+  padding: 15px;
+  padding-top: 60px;
+}
+
+.channel {
+  background-color: var(--darkLayout2);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.channel-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.channel.selected {
+  border: 2px solid var(--selectedBorder);
+  background-color: var(--selectedLayout);
+}
